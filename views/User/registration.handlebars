@@ -1,0 +1,25 @@
+  
+    
+<div class="regis">
+    {{#each registration}}
+
+        <div class="errorsRegis">
+        {{this}}
+        </div>
+    {{/each}}
+    <form method="POST" action="/user/registration">
+        <div><h2>Create your account</h2></div>
+        <div class="where"><input class="input" type="text" name="email" placeholder="Email address" style="width:380px; height:30px;"></div>
+        <div class="where"><input class="input" type="text" name="fname" placeholder="First name" style="width:380px; height:30px"></div>
+        <div class="where"><input class="input" type="text" name="lname" placeholder="Last name" style="width:380px; height:30px"></div>
+        <div class="where"><input class="input" type="password" name="password" placeholder="Create a Password" style="width:380px; height:30px;"></div>
+        <div class="where"><input class="input" type="password" name="confirmpassword" placeholder="Confirm Password" style="width:380px; height:30px;"></div>
+        <div>Birthdate</div>
+        <div class="where">
+        <input class="input" type="date" name="birthdate" style="width:380px; height:30px;"></div>
+        <div><button type="submit" class="signupbutton"><span>Sign up</span></button></div>
+    </form>
+</div>
+
+
+

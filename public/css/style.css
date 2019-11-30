@@ -1,0 +1,388 @@
+*{
+    font-family: sans-serif;
+}
+
+header{
+    background-color:lightgray;
+}
+
+header>i>nav>a{
+    text-decoration:none;
+    color:white;
+    margin-bottom:10px;
+}
+
+body
+{
+    background-color:white
+}
+
+footer{
+    background-color:lightgray;
+    margin-top: 30px;
+}
+
+.backback
+{
+    display:inline-block;
+    vertical-align: bottom;
+    height:100%;
+    width: 100%;
+    background-image:url('/img/background.jpg');
+    background-size:auto 180%;
+    background-repeat: no-repeat;
+}
+
+.backest
+{
+    
+    padding-top:60px;
+    padding-left:50px;
+    height:500px;
+}
+
+.searchcontainer
+{
+    display:inline-block;
+    background-color:white;
+    border-radius:4px;
+    border-width:2px;
+    margin-right:600px;
+    padding: 5px 30px 30px 10px;
+    height: 400px;
+    width: 300px;
+}
+
+.where
+{
+    align-items:center;
+    background-color:#ffffff;
+    border: 1px solid #EBEBEB;
+    border-radius:4px;
+    display:flex;
+    height: 48px;
+    width:100%;
+    margin-top:5px;
+    margin-bottom:5px;
+}
+
+.regis
+{
+    background-color:white;
+    border-radius:4px;
+    border-width:2px;
+    border:2px solid #BEBEBE;
+    margin-top:10px;
+    margin-left:600px;
+    margin-right:600px;
+    margin-bottom:100px;
+    padding: 5px 30px 30px 10px;
+    height: auto;
+    width: 300px;
+}
+
+.login {
+    background-color:white;
+    border-radius:4px;
+    border-width:2px;
+    border:1px solid #BEBEBE;
+    margin: 1rem auto 0 auto;
+    padding: 5px 30px 30px 10px;
+    height: 400px;
+    width: 300px;
+}
+
+.inwhere
+{
+    font-size: 17px;
+    background-color: transparent;
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+    width:100%;
+    text-overflow: ellipsis;
+}
+
+.input{
+    font-size: 17px;
+    background-color: transparent;
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+    width:100%;
+    text-overflow: ellipsis;
+}
+
+.searchbutton{
+    display:inline-block;
+    margin-left:200px;
+    margin-top:10px;
+    border-radius:4px;
+    font-size:16px;
+    line-height:24px;
+    padding:10px 22px 10px 22px;
+    border-width:2px;
+    border-color:transparent;
+    background-color:#FF5A5F;
+    color: white;
+}
+
+.check
+{
+    display:grid;
+    grid-template-columns: 3px 3px;
+    align-items:center;
+    background-color:#ffffff;
+    border: 1px solid #EBEBEB;
+    border-radius:4px;
+    display:flex;
+    height: 48px;
+    width:100%
+}
+
+.searchbutton
+{
+    text-align: right;
+}
+
+.errorsHome
+{
+    background-color:pink;
+    color:red;
+    display:table-header-group;
+    padding: 0.5rem 1rem;
+    margin-bottom: 1 rem;
+}
+
+.errorsLogin
+{
+    background-color:pink;
+    color:red;
+    display:table-header-group;
+    padding: 0.5rem 1rem;
+    margin-bottom: 1 rem;
+}
+
+.errorsRegis
+{
+    background-color:pink;
+    color:red;
+    display:table-header-group;
+    padding :8px 16px;
+    margin-bottom: 16px;
+}
+
+.promo
+{
+    display:grid;
+    grid-template-columns: 40rem 40rem;
+    
+}
+
+section{
+    padding: 5rem 10rem 5rem 10rem;
+    border-top-color: black;
+}
+
+
+.imgcontainer
+{
+    display:grid;
+    grid-template-columns: 25rem 25rem 25rem;
+    padding: 0 10rem 0 10rem;
+}
+
+.img 
+{
+    padding-bottom: 20px; 
+}
+
+figcaption{
+    color: #393939;
+    font-weight: bold;
+}
+
+.small
+{
+    font-size: 15px;
+    font-weight:lighter;
+}
+
+h2.room {
+    text-align: center;
+}
+
+.shortcut
+{
+    text-align: right;
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+}
+
+.airbnb
+{
+    font-size: 50px;
+}
+
+.logo
+{
+    font-size: 20px;
+    text-align: center;
+}
+
+.signupbutton
+{
+    display:inline-block;
+    border-radius:4px;
+    font-size:16px;
+    line-height:24px;
+    padding:10px 22px 10px 22px;
+    border-width:2px;
+    border-color:transparent;
+    background-color:#FF5A5F;
+    color: white;
+    width:300px;
+}
+
+.input{
+    
+    padding: 5px 5px 5px 5px;
+}
+
+.loginbutton {
+    display:inline-block;
+    border-radius:4px;
+    font-size:16px;
+    line-height:24px;
+    padding:10px 22px 10px 22px;
+    border-width:2px;
+    border-color:transparent;
+    background-color:#FF5A5F;
+    color: white;
+    width:300px;
+}
+
+.loginbox {
+    display:inline-block;
+    background-color:white;
+    border-radius:4px;
+    border-width:2px;
+    margin-right:600px;
+    padding: 5px 30px 30px 10px;
+    height: 400px;
+    width: 300px;
+}
+
+.prompt {
+    align-items:center;
+    background-color:#ffffff;
+    border: 1px solid #EBEBEB;
+    border-radius:4px;
+    display:flex;
+    height: 48px;
+    width:100%;
+}
+
+.roomimage {
+    width: 350px;
+    height: 200px;
+}
+
+.promoimage {
+    width: 600px;
+    height: 300px;
+}
+
+.video {
+    width:1200px;
+    height: 500px;
+}
+
+@media(max-width:365px) {
+    body {
+        margin-left: 0px;
+    }
+    
+    nav {
+        font-size:10px;
+    }
+    
+    .imgcontainer {
+        grid-template-columns: auto; 
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    section {
+        padding: 10px 0 10px 0;
+    }
+
+    .roomimage {
+        width: 300px;
+    }
+
+    .regis {
+        margin-left:10px;
+        margin-bottom:80px;
+    }
+
+    .promo {
+        grid-template-columns: auto;
+    }
+      
+    .promoimage {
+        width: 350px;
+        height: 175px;
+    }
+
+    .video {
+        width: 350px;
+        height: 175px;
+    }
+
+    .searchcontainer {
+        margin-right: 30px;
+        width: 250px;
+    }
+    .check {
+        grid-template-columns: auto;
+    }
+
+    .searchbutton {
+        margin-left: 135px;
+    }
+}
+
+@media(max-width:768px) {
+    .regis {
+        margin-left: 150px;
+    }
+
+    .imgcontainer {
+        grid-template-columns: auto;
+    }
+
+    .promo {
+        grid-template-columns: auto;
+    }
+
+    .promoimage {
+        width: 700px;
+        height: 400px;
+    }
+
+    section {
+        padding-left: 1rem;
+    }
+
+    .video {
+        width: 700px;
+        height: 500px;
+    }
+}
+
+
+
+
+

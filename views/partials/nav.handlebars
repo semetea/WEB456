@@ -1,0 +1,14 @@
+<i class="fab fa-airbnb">
+        <nav class="shortcut">
+            <a href="/">Home</a>
+            {{#if user}}
+            <a href="/user/logout">Logout</a>
+            {{else if admin}}
+            <a href="/user/adminlogout">Logout</a>
+            {{else}}
+            <a href="/user/login">Login</a>
+            <a href="/user/registration">Registration</a>
+            {{/if}}
+            <a href="/roomlisting">Room</a>
+        </nav>
+</i>

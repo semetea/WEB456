@@ -1,0 +1,55 @@
+<div class="backback">
+<div class="backest">
+     {{#each index}}
+            <div class="errorsHome">{{this}}</div>
+     {{/each}}
+    <div class="searchcontainer">
+        <div><h2>Book unique places to<br> stay and things to do.</h2></div>
+        <form method="POST" action="/">
+            <div>WHERE</div>
+            <div class="where">
+                <select class="inwhere" aria-autocomplete="list" aria-expanded="false" name="where" autocomplete="off" role="combobox" placeholder="Anywhere">
+                    <option>Toronto</option>
+                    <option>Vancouver</option>
+                    <option>Montreal</option>
+                    <option>Ottawa</option>
+                </select>
+            </div><br>
+            <div>CHECK-IN   CHECK-OUT</div>
+        <div class="check">
+            <div>
+            <input class="inwhere" type="date" name="checkin"></div>            <div>
+            <input class="inwhere" type="date" name="checkout"></div>
+        </div><br>
+        <div>GUESTS</div>
+        <div class="where">
+        <select class="inwhere" name="guest">
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+            <option>5</option>
+        </select></div>
+        <div>
+            <button type="submit" class="searchbutton"><span>Search</span></button>
+        </div>
+        </form>
+    </div>
+
+</div>
+</div>
+
+<section>
+    <div class="promo">
+        <div><img src="/img/promo1.jpg" class="promoimage">
+            <figcaption>Get your 10% Off on beautiful resort!</figcaption>
+        </div>
+        <div><img src="/img/promo2.jpg" class="promoimage">
+            <figcaption>Get your 30% off on this beautiful house!</figcaption>
+        </div>
+    </div>
+</section>
+
+<section>
+    <iframe class="video" src="https://www.youtube.com/embed/-XSAqfK_UwY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</section>
